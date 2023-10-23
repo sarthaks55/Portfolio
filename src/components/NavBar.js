@@ -4,7 +4,7 @@ const NavBar = () => {
      
     return(
         <Navbar collapseOnSelect expand="lg" bg="#2d2e32" variant="dark" className="navContainer">
-        <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img alt="lmt logo" src="/assets/Profile.png" className="logoLmt"/></NavLink>
+        <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img alt="lmt logo" src="/assets/logo.png" className="logoLmt"/></NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
          <div className="navA">

@@ -5,8 +5,7 @@ const Hero = () => {
         <div className="heroContainer">
             <NavBar/>
             <div className="introHero">
-            {/* style={{backgroundImage:'url("https://i.postimg.cc/cJLPRgCB/testprofilelau.png")'}} */}
-            <div><img className="heroPhoto" src={"/assets/Profile.png"} alt="piture" /></div>
+            <div><img className="heroPhoto" src={"/assets/pro.png"} alt="piture" /></div>
             <div className="dataHero">
                 <span className="titleContainer">
                     Hi There! 

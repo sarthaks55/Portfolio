@@ -23,9 +23,9 @@ html * {
 
 .heroPhoto{
   align-self: center;
-  width: 30vw;
-  height: 60vh;
-  border-radius: 350px;
+  width: 55vw;
+  height: 85vh;
+  border-radius: 450px;
   background-repeat: no-repeat;
 }
 
@@ -80,7 +80,7 @@ html * {
 /*Navbar*/
 
 .logoLmt{
-  width: 6rem;
+  width: 8rem;
   margin: 0 1em;
 }
 
