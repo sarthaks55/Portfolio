@@ -98,6 +98,11 @@ html * {
   color:#dbdbdc !important;
 }
 
+.navbar-expand-lg .navbar-nav {
+  font-size:larger;
+  flex-direction: row;
+}
+
 .nav-link:hover{
   color:#66ff99 !important;
 }

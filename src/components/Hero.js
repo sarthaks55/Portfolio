@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="heroText">
                 <h2>I'M</h2>
                 <h2>Sarthak Sambare</h2>
-                <p>Welcome! I am an I.T. Engginering Student.I am looking for new challenges to become an excellent professional.I hope you enjoy my work! </p>
+                <p>Welcome! I am an I.T. Engineering Student.I am looking for new challenges to become an excellent professional.I hope you enjoy my work! </p>
                 </div>
                 <Link  to='/contacto' onClick={() => window.scrollTo(0, 0)} className="contactSpan" >
                     <p className="contactHero">{"< Contact Me! />"}</p>
