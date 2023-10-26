@@ -47,10 +47,10 @@ const Home = () => {
                     </div>
              </div> 
             <div className="introductionMain">
-                <div>
+                <div className='abt'>
                     <p>About Me</p>
                 </div>
-                <div>
+                <div className='intro'> 
                     <h3>Hello! I'm Sarthak Sambare</h3>
                 </div>
                 <div>
