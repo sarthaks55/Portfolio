@@ -4,20 +4,20 @@ const Hero = () => {
     return(
         <div className="heroContainer">
             <NavBar/>
-            <div className="fireflies">
-                {/* <img className="img" src="/assets/icons/c.png" alt="ico"/>
+            {/* <div className="fireflies">
+                <img className="img" src="/assets/icons/c.png" alt="ico"/>
                 <img className="img" src="/assets/icons/c++.png" alt="ico"/>
                 <img className="img" src="/assets/icons/cloud.png" alt="ico"/>
                 <img className="img" src="/assets/icons/internet.png" alt="ico"/>
                 <img className="img" src="/assets/icons/language.png" alt="ico"/>
-                <img className="img" src="/assets/icons/python.png" alt="ico"/> */}
+                <img className="img" src="/assets/icons/python.png" alt="ico"/>
                 <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
-            </div>
+            </div> */}
             <div className="introHero">
             <div><img className="heroPhoto" src={"/assets/pro.png"} alt="piture" /></div>
             <div className="dataHero">
                 <span className="titleContainer">
-                    Hi There! 
+                    <div className="h11">Hi There! </div>
                 </span>
                 <div className="heroText">
                 <h2>I'M</h2>

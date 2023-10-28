@@ -14,7 +14,7 @@ html * {
  
 }
 
-.fireflies li:nth-of-type(1) {
+/* .fireflies li:nth-of-type(1) {
   animation-delay: 1s; 
   animation-duration: 65s, 81s, 0.01s; 
   animation-fill-mode: backwards, backwards; 
@@ -70,7 +70,7 @@ html * {
 } 
 
 /* last 10 */
-.fireflies li:nth-of-type(11) { 
+/* .fireflies li:nth-of-type(11) { 
   animation-delay: 1s; 
   animation-duration: 60s, 78s, 0.01s; 
   animation-fill-mode: backwards, backwards; 
@@ -103,9 +103,9 @@ html * {
   background-image: radial-gradient(rgb(1, 108, 125) 5%, 
                                     rgb(4, 167, 254) 25%, 
                                     rgb(7, 187, 252) 60%); 
-  /* box-shadow: 0 0 5px 2px rgb(250, 193, 93),  
+  box-shadow: 0 0 5px 2px rgb(250, 193, 93),  
               0 0 20px 10px rgb(255, 228, 140), 
-              0 0 40px 15px rgb(255, 219, 41);  */
+              0 0 40px 15px rgb(255, 219, 41); 
   height: 0.5px; 
   width: 0.5px; 
   top: -20px; 
@@ -113,7 +113,7 @@ html * {
   animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1), 
              updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1), 
       blinking 3s infinite; 
-} 
+}  */
 
 /* .fireflies img{
   top: -20px; 
@@ -123,7 +123,7 @@ html * {
       blinking 3s infinite; 
 
 } */
-
+/* 
 @keyframes leftright { 
   
   0%, 
@@ -153,7 +153,7 @@ html * {
 } 
 
 /* It will create the up down movement */
-@keyframes updown { 
+/* @keyframes updown { 
 
   0%, 
   100% { 
@@ -171,9 +171,9 @@ html * {
   75% { 
       top: 95%; 
   } 
-} 
+}  */
 
-@keyframes blinking { 
+/* @keyframes blinking { 
   
   0%, 
   100% { 
@@ -195,7 +195,7 @@ html * {
     0 0 10px 5px rgb(0, 109, 192), 
     0 0 30px 10px rgb(1, 65, 142);
   } 
-}
+}   */
 
 
 .introHero{
@@ -224,6 +224,26 @@ html * {
   position: relative;
   margin-bottom: 1.5em;
   font-size: 2.5vmin;
+  
+
+}
+
+.titleContainer .h11{
+  animation: 
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
 
 .titleContainer::after {
@@ -235,6 +255,7 @@ html * {
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
   border-bottom: none;
+  
 }
 
 .dataHero{
