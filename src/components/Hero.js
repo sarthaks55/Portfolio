@@ -14,10 +14,10 @@ const Hero = () => {
                 <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
             </div> */}
             <div className="introHero">
-            <div><img className="heroPhoto" src={"/assets/pro.png"} alt="piture" /></div>
+            <div className="gooey"><img className="heroPhoto" src={"/assets/pro.png"} alt="piture" /></div>
             <div className="dataHero">
                 <span className="titleContainer">
-                    <div className="h11">Hi There! </div>
+                    <h3 className="h11">Hi There! </h3>
                 </span>
                 <div className="heroText">
                 <h2>I'M</h2>
