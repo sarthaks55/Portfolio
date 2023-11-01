@@ -1,9 +1,8 @@
-import NavBar from "./NavBar"
 import { Link } from "react-router-dom"
 const Hero = () => {
     return(
         <div className="heroContainer">
-            <NavBar/>
+            
             {/* <div className="fireflies">
                 <img className="img" src="/assets/icons/c.png" alt="ico"/>
                 <img className="img" src="/assets/icons/c++.png" alt="ico"/>

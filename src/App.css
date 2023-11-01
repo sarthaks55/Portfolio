@@ -11,7 +11,14 @@ html * {
   width: 100%;
   min-height: 90vh;
   background-color: #2d2e32;
- 
+  animation: fadeIn 500ms reverse;
+}
+
+@keyframes fadeIn{
+  100%{
+    transform: scale(1.03);
+    opacity: 0;
+  }
 }
 
 /* .fireflies li:nth-of-type(1) {
@@ -273,7 +280,7 @@ html * {
   position: relative;
   top: 0;
   left: 0;
-  background-image: linear-gradient(120deg, #68d46d 0%, #dcea4c 100%);
+  background-image: linear-gradient(120deg, #aaedad 0%, #66ff99 100%);
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
   
   animation: morph 3s linear infinite; 
@@ -290,7 +297,7 @@ html * {
   position: absolute;
   left: 0; top: 0;
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-  box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+  box-shadow: 5px 5px 89px rgb(101, 241, 150);
   will-change: border-radius, transform, opacity;
   animation-delay: 200ms;
   
@@ -432,6 +439,11 @@ html * {
 
 /*Navbar*/
 
+.navContainer {
+  background-color: #2d2e32;
+}
+
+
 .logosss{
   width: 8rem;
   margin: 0 1em;
@@ -470,6 +482,115 @@ html * {
   align-items: center;
   justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+.edutimeline {
+  width: 30vw;
+}
+
+.head {
+  font-size: 5.5vmin;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #66ff99;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.percentage {
+  color: white;
+}
+
+.timecard {
+  margin: 4em;
+  padding: 3rem;
+  border-radius: 1em!important;
+  display: flex;
+  background-color: #2d2e32!important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.fw {
+  color: white;
+  font-size: 2.5vmin;
+}
+
+.time {
+  color:#66ff99;
+  font-size: 2vmin;
+}
+
+.location {
+  color:#606167;
+  font-size: 2vmin;
+}
+
+.timeline-item {
+  padding: 10px;
+}
+
+.timeline-with-icons {
+  border-left: 1px solid #ffffff;
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color:#66ff99;
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Home main*/
 
@@ -579,7 +700,7 @@ footer{
 
 .introductionMain p{
   color:#606167;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-size: 2.5vmin;
   text-align: justify;
 }
@@ -859,7 +980,11 @@ footer{
   background-color: #2d2e32!important;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32)
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.dataIcon a {
+  text-decoration: none;
 }
 
 .dataDev h2{

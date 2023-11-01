@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap"
 const NavBar = () => {
      
     return(
-        <Navbar collapseOnSelect expand="lg" bg="#2d2e32" variant="dark" className="navContainer">
+        <Navbar collapseOnSelect expand="lg" bg="#2d2e32" variant="dark" className="navContainer sticky-top">
         <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img alt="lmt logo" src="/assets/logo.png" className="logosss"/></NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
